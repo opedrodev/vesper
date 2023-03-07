@@ -1,5 +1,5 @@
 {
-  "name": "Vesper",
+  "name": "Vesper ++",
   "colors": {
     // Editor
     "editor.background": "#101010",
@@ -92,11 +92,7 @@
     },
     {
       "name": "Variables",
-      "scope": [
-        "variable",
-        "string constant.other.placeholder",
-        "entity.name.tag"
-      ],
+      "scope": ["variable", "string constant.other.placeholder", "entity.name.tag"],
       "settings": {
         "foreground": "#FFF"
       }
@@ -117,9 +113,9 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": ["keyword", "storage.modifier"],
       "settings": {
-        "foreground": "#A0A0A0"
+        "foreground": "#FBADFF"
       }
     },
     {
@@ -127,26 +123,23 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "punctuation.definition.tag",
+        //"punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
+        "keyword.other.rust",
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#A0A0A0"
+        "foreground": "#FBADFF"
       }
     },
     {
       "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
+      "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
       "settings": {
         "foreground": "#FFC799"
       }
@@ -198,6 +191,8 @@
         "string",
         "constant.other.symbol",
         "constant.other.key",
+        "storage.type",
+        "keyword.other.fn.rust",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
@@ -244,11 +239,7 @@
     },
     {
       "name": "Sub-methods",
-      "scope": [
-        "entity.name.module.js",
-        "variable.import.parameter.js",
-        "variable.other.class.js"
-      ],
+      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
       "settings": {
         "foreground": "#FF8080"
       }
@@ -257,7 +248,7 @@
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#A0A0A0"
+        "foreground": "#FFFF"
       }
     },
     {
@@ -269,10 +260,7 @@
     },
     {
       "name": "meta.method.js",
-      "scope": [
-        "meta.class-method.js entity.name.function.js",
-        "variable.function.constructor"
-      ],
+      "scope": ["meta.class-method.js entity.name.function.js", "variable.function.constructor"],
       "settings": {
         "foreground": "#FFFF"
       }
@@ -291,7 +279,7 @@
         "punctuation.separator.key-value.css"
       ],
       "settings": {
-        "foreground": "#A0A0A0"
+        "foreground": "#FFFF"
       }
     },
     {
@@ -377,9 +365,7 @@
     },
     {
       "name": "ES7 Bind Operator",
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js"
-      ],
+      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FF8080"
@@ -387,9 +373,7 @@
     },
     {
       "name": "JSON Key - Level 0",
-      "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
+      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
       "settings": {
         "foreground": "#FFC799"
       }
@@ -468,10 +452,7 @@
     },
     {
       "name": "Markdown - Plain",
-      "scope": [
-        "text.html.markdown",
-        "punctuation.definition.list_item.markdown"
-      ],
+      "scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
       "settings": {
         "foreground": "#FFF"
       }
