@@ -1,6 +1,6 @@
 {
   "name": "vesper-pp",
-  "displayName": "vesper++",
+  "displayName": "Vesper++",
   "description": "Based on the Vesper Theme from raunofreiberg, with a little more color",
   "publisher": "Obstinate",
   "repository": {
@@ -17,7 +17,8 @@
     "vesper-pp",
     "obstinate"
   ],
-  "version": "0.0.1",
+  "icon": "icon.png",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.76.0"
   },
