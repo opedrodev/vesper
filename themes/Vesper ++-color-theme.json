@@ -131,10 +131,25 @@
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.rust",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "storage.type"
       ],
       "settings": {
         "foreground": "#FBADFF"
+      }
+    },
+    {
+      "name": "Java Tweak Import",
+      "scope": ["keyword.other.import.java"],
+      "settings": {
+        "foreground": "#FBADFF"
+      }
+    },
+    {
+      "name": "Java Tweak Import variable",
+      "scope": ["storage.modifier.import.java"],
+      "settings": {
+        "foreground": "#FFFF"
       }
     },
     {
@@ -191,7 +206,6 @@
         "string",
         "constant.other.symbol",
         "constant.other.key",
-        "storage.type",
         "keyword.other.fn.rust",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
@@ -242,6 +256,13 @@
       "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
       "settings": {
         "foreground": "#FF8080"
+      }
+    },
+    {
+      "name": "Variable immutable",
+      "scope": ["variable.other.constant"],
+      "settings": {
+        "foreground": "#99FFE4"
       }
     },
     {
@@ -534,7 +555,10 @@
     },
     {
       "name": "Markup - Quote",
-      "scope": ["markup.quote"]
+      "scope": ["markup.quote"],
+      "settings": {
+        "foreground": "#99FFE4"
+      }
     },
     {
       "name": "Markdown - Link",

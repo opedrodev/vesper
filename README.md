@@ -1,4 +1,4 @@
-![Vesper Preview](https://cdn.rauno.me/vesper-og.png)
+![Vesper Preview](https://i.imgur.com/KSPaSJ4.png)
 
 # Vesper++
 

@@ -12,3 +12,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 - More colors :)
+
+## [1.1.0] - 2023-03-07
+
+- Update vscode version requirement
+- Update immutable variable color
+- Tweak for java
