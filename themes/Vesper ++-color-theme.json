@@ -7,7 +7,6 @@
     "editor.selectionBackground": "#FFFFFF25",
     "editor.selectionHighlightBackground": "#FFFFFF25",
     "editorLineNumber.foreground": "#505050",
-    "editorGroupHeader.tabsBackground": "#101010",
     "editorWidget.background": "#101010",
     "editorWarning.foreground": "#FFC799",
     "editorError.foreground": "#FF8080",
@@ -86,7 +85,30 @@
     "gitDecoration.conflictingResourceForeground": "#FF8080",
     "gitDecoration.submoduleResourceForeground": "#A0A0A0",
     // Settings
-    "settings.modifiedItemIndicator": "#FFC799"
+    "settings.modifiedItemIndicator": "#FFC799",
+    // Terminal
+    "terminal.ansiBlack": "#101010",
+    "terminal.ansiBlue": "#FFC799",
+    "terminal.ansiBrightBlack": "#101010",
+    "terminal.ansiBrightBlue": "#FFC799",
+    "terminal.ansiBrightCyan": "#99FFE4",
+    "terminal.ansiBrightGreen": "#99FFE4",
+    "terminal.ansiBrightMagenta": "#FBADFF",
+    "terminal.ansiBrightRed": "#FF8080",
+    "terminal.ansiBrightWhite": "#f8f8f2",
+    "terminal.ansiBrightYellow": "#FFC799",
+    "terminal.ansiCyan": "#99FFE4",
+    "terminal.ansiGreen": "#99FFE4",
+    "terminal.ansiMagenta": "#FBADFF",
+    "terminal.ansiRed": "#FF8080",
+    "terminal.ansiWhite": "#e3e3dd",
+    "terminal.ansiYellow": "#FFC799",
+    "terminal.background": "#101010",
+    // Tabs
+    "editorGroup.border": "#FFC799",
+    "editorGroupHeader.tabsBackground": "#101010",
+    "tab.inactiveBackground": "#1C1C1C",
+    "tab.border": "#1C1C1C"
   },
   "tokenColors": [
     {
