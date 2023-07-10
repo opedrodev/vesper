@@ -159,6 +159,7 @@
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.rust",
+        "keyword.other.fn.rust",
         "keyword.other.substitution",
         "storage.type"
       ],
