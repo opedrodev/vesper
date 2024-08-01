@@ -21,8 +21,8 @@
     // Sidebar
     "sideBar.background": "#161616",
     "sideBar.foreground": "#adadad",
-    "sideBarTitle.foreground": "#a0a0a000",
-    "sideBarSectionHeader.foreground": "#a0a0a000",
+    "sideBarTitle.foreground": "#adadad79",
+    "sideBarSectionHeader.foreground": "#adadad79",
     "sideBarSectionHeader.background": "#161616",
     // Activity bar
     "activityBar.background": "#161616",
